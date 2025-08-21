@@ -1,0 +1,10 @@
+name: ivg
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - cudatoolkit=11.8  # optional - only include if you have a compatible NVIDIA GPU and want CUDA via conda
+  - pip:
+    - -r requirements.txt

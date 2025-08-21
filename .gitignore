@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.egg-info/
+.build/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+conda-env/
+pip-wheel-metadata/
+
+# IDE/editor
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs & runtime pids
+*.log
+*.pid
+
+# App artifacts
+gradio_app.log
+webui_launch.log
+webui.pid
+gradio_app.pid
+
+# Outputs & temp
+outputs/
+/tmp/
+.tmp/
+*.mp4
+*.webm
+*.gif
+*.png~
+*~
+.DS_Store
+
+# Node
+node_modules/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models & checkpoints (keep inventory text)
+models/**
+!models/gguf_inventory.txt
+*.safetensors
+*.ckpt
+*.bin
+*.pt
+*.pth
+
+# External integrations (e.g., AUTOMATIC1111 webui)
+external/**
+!external/README.md
+
+# Caches
+.cache/
+.hf_cache/
+.huggingface/
+
+# Environment files
+.env
+.env.*
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.env
+
+# Model cache
+~/.cache/huggingface
+
+# Outputs
+outputs/
+*.mp4
+*.webm
+
+# VSCode
+.vscode/

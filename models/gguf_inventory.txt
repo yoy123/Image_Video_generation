@@ -1,0 +1,207 @@
+file: /home/dan/Downloads/stable-diffusion-xl-refiner-1.0-Q8_0.gguf
+fields:
+  GGUF.version
+  GGUF.tensor_count
+  GGUF.kv_count
+
+Tensors (first 200):
+0: name=cond_stage_model.1.transformer.text_model.embeddings.position_embedding.weight, shape=[1280   77], bytes=197120
+1: name=cond_stage_model.1.transformer.text_model.embeddings.token_embedding.weight, shape=[ 1280 49408], bytes=126484480
+2: name=cond_stage_model.1.transformer.text_model.encoder.layers.0.layer_norm1.bias, shape=[1280], bytes=2560
+3: name=cond_stage_model.1.transformer.text_model.encoder.layers.0.layer_norm1.weight, shape=[1280], bytes=2560
+4: name=cond_stage_model.1.transformer.text_model.encoder.layers.0.layer_norm2.bias, shape=[1280], bytes=2560
+5: name=cond_stage_model.1.transformer.text_model.encoder.layers.0.layer_norm2.weight, shape=[1280], bytes=2560
+6: name=cond_stage_model.1.transformer.text_model.encoder.layers.0.mlp.fc1.bias, shape=[5120], bytes=10240
+7: name=cond_stage_model.1.transformer.text_model.encoder.layers.0.mlp.fc1.weight, shape=[1280 5120], bytes=13107200
+8: name=cond_stage_model.1.transformer.text_model.encoder.layers.0.mlp.fc2.bias, shape=[1280], bytes=2560
+9: name=cond_stage_model.1.transformer.text_model.encoder.layers.0.mlp.fc2.weight, shape=[5120 1280], bytes=13107200
+10: name=cond_stage_model.1.transformer.text_model.encoder.layers.0.self_attn.k_proj.bias, shape=[1280], bytes=2560
+11: name=cond_stage_model.1.transformer.text_model.encoder.layers.0.self_attn.k_proj.weight, shape=[1280 1280], bytes=3276800
+12: name=cond_stage_model.1.transformer.text_model.encoder.layers.0.self_attn.out_proj.bias, shape=[1280], bytes=2560
+13: name=cond_stage_model.1.transformer.text_model.encoder.layers.0.self_attn.out_proj.weight, shape=[1280 1280], bytes=3276800
+14: name=cond_stage_model.1.transformer.text_model.encoder.layers.0.self_attn.q_proj.bias, shape=[1280], bytes=2560
+15: name=cond_stage_model.1.transformer.text_model.encoder.layers.0.self_attn.q_proj.weight, shape=[1280 1280], bytes=3276800
+16: name=cond_stage_model.1.transformer.text_model.encoder.layers.0.self_attn.v_proj.bias, shape=[1280], bytes=2560
+17: name=cond_stage_model.1.transformer.text_model.encoder.layers.0.self_attn.v_proj.weight, shape=[1280 1280], bytes=3276800
+18: name=cond_stage_model.1.transformer.text_model.encoder.layers.1.layer_norm1.bias, shape=[1280], bytes=2560
+19: name=cond_stage_model.1.transformer.text_model.encoder.layers.1.layer_norm1.weight, shape=[1280], bytes=2560
+20: name=cond_stage_model.1.transformer.text_model.encoder.layers.1.layer_norm2.bias, shape=[1280], bytes=2560
+21: name=cond_stage_model.1.transformer.text_model.encoder.layers.1.layer_norm2.weight, shape=[1280], bytes=2560
+22: name=cond_stage_model.1.transformer.text_model.encoder.layers.1.mlp.fc1.bias, shape=[5120], bytes=10240
+23: name=cond_stage_model.1.transformer.text_model.encoder.layers.1.mlp.fc1.weight, shape=[1280 5120], bytes=13107200
+24: name=cond_stage_model.1.transformer.text_model.encoder.layers.1.mlp.fc2.bias, shape=[1280], bytes=2560
+25: name=cond_stage_model.1.transformer.text_model.encoder.layers.1.mlp.fc2.weight, shape=[5120 1280], bytes=13107200
+26: name=cond_stage_model.1.transformer.text_model.encoder.layers.1.self_attn.k_proj.bias, shape=[1280], bytes=2560
+27: name=cond_stage_model.1.transformer.text_model.encoder.layers.1.self_attn.k_proj.weight, shape=[1280 1280], bytes=3276800
+28: name=cond_stage_model.1.transformer.text_model.encoder.layers.1.self_attn.out_proj.bias, shape=[1280], bytes=2560
+29: name=cond_stage_model.1.transformer.text_model.encoder.layers.1.self_attn.out_proj.weight, shape=[1280 1280], bytes=3276800
+30: name=cond_stage_model.1.transformer.text_model.encoder.layers.1.self_attn.q_proj.bias, shape=[1280], bytes=2560
+31: name=cond_stage_model.1.transformer.text_model.encoder.layers.1.self_attn.q_proj.weight, shape=[1280 1280], bytes=3276800
+32: name=cond_stage_model.1.transformer.text_model.encoder.layers.1.self_attn.v_proj.bias, shape=[1280], bytes=2560
+33: name=cond_stage_model.1.transformer.text_model.encoder.layers.1.self_attn.v_proj.weight, shape=[1280 1280], bytes=3276800
+34: name=cond_stage_model.1.transformer.text_model.encoder.layers.10.layer_norm1.bias, shape=[1280], bytes=2560
+35: name=cond_stage_model.1.transformer.text_model.encoder.layers.10.layer_norm1.weight, shape=[1280], bytes=2560
+36: name=cond_stage_model.1.transformer.text_model.encoder.layers.10.layer_norm2.bias, shape=[1280], bytes=2560
+37: name=cond_stage_model.1.transformer.text_model.encoder.layers.10.layer_norm2.weight, shape=[1280], bytes=2560
+38: name=cond_stage_model.1.transformer.text_model.encoder.layers.10.mlp.fc1.bias, shape=[5120], bytes=10240
+39: name=cond_stage_model.1.transformer.text_model.encoder.layers.10.mlp.fc1.weight, shape=[1280 5120], bytes=13107200
+40: name=cond_stage_model.1.transformer.text_model.encoder.layers.10.mlp.fc2.bias, shape=[1280], bytes=2560
+41: name=cond_stage_model.1.transformer.text_model.encoder.layers.10.mlp.fc2.weight, shape=[5120 1280], bytes=13107200
+42: name=cond_stage_model.1.transformer.text_model.encoder.layers.10.self_attn.k_proj.bias, shape=[1280], bytes=2560
+43: name=cond_stage_model.1.transformer.text_model.encoder.layers.10.self_attn.k_proj.weight, shape=[1280 1280], bytes=3276800
+44: name=cond_stage_model.1.transformer.text_model.encoder.layers.10.self_attn.out_proj.bias, shape=[1280], bytes=2560
+45: name=cond_stage_model.1.transformer.text_model.encoder.layers.10.self_attn.out_proj.weight, shape=[1280 1280], bytes=3276800
+46: name=cond_stage_model.1.transformer.text_model.encoder.layers.10.self_attn.q_proj.bias, shape=[1280], bytes=2560
+47: name=cond_stage_model.1.transformer.text_model.encoder.layers.10.self_attn.q_proj.weight, shape=[1280 1280], bytes=3276800
+48: name=cond_stage_model.1.transformer.text_model.encoder.layers.10.self_attn.v_proj.bias, shape=[1280], bytes=2560
+49: name=cond_stage_model.1.transformer.text_model.encoder.layers.10.self_attn.v_proj.weight, shape=[1280 1280], bytes=3276800
+50: name=cond_stage_model.1.transformer.text_model.encoder.layers.11.layer_norm1.bias, shape=[1280], bytes=2560
+51: name=cond_stage_model.1.transformer.text_model.encoder.layers.11.layer_norm1.weight, shape=[1280], bytes=2560
+52: name=cond_stage_model.1.transformer.text_model.encoder.layers.11.layer_norm2.bias, shape=[1280], bytes=2560
+53: name=cond_stage_model.1.transformer.text_model.encoder.layers.11.layer_norm2.weight, shape=[1280], bytes=2560
+54: name=cond_stage_model.1.transformer.text_model.encoder.layers.11.mlp.fc1.bias, shape=[5120], bytes=10240
+55: name=cond_stage_model.1.transformer.text_model.encoder.layers.11.mlp.fc1.weight, shape=[1280 5120], bytes=13107200
+56: name=cond_stage_model.1.transformer.text_model.encoder.layers.11.mlp.fc2.bias, shape=[1280], bytes=2560
+57: name=cond_stage_model.1.transformer.text_model.encoder.layers.11.mlp.fc2.weight, shape=[5120 1280], bytes=13107200
+58: name=cond_stage_model.1.transformer.text_model.encoder.layers.11.self_attn.k_proj.bias, shape=[1280], bytes=2560
+59: name=cond_stage_model.1.transformer.text_model.encoder.layers.11.self_attn.k_proj.weight, shape=[1280 1280], bytes=3276800
+60: name=cond_stage_model.1.transformer.text_model.encoder.layers.11.self_attn.out_proj.bias, shape=[1280], bytes=2560
+61: name=cond_stage_model.1.transformer.text_model.encoder.layers.11.self_attn.out_proj.weight, shape=[1280 1280], bytes=3276800
+62: name=cond_stage_model.1.transformer.text_model.encoder.layers.11.self_attn.q_proj.bias, shape=[1280], bytes=2560
+63: name=cond_stage_model.1.transformer.text_model.encoder.layers.11.self_attn.q_proj.weight, shape=[1280 1280], bytes=3276800
+64: name=cond_stage_model.1.transformer.text_model.encoder.layers.11.self_attn.v_proj.bias, shape=[1280], bytes=2560
+65: name=cond_stage_model.1.transformer.text_model.encoder.layers.11.self_attn.v_proj.weight, shape=[1280 1280], bytes=3276800
+66: name=cond_stage_model.1.transformer.text_model.encoder.layers.12.layer_norm1.bias, shape=[1280], bytes=2560
+67: name=cond_stage_model.1.transformer.text_model.encoder.layers.12.layer_norm1.weight, shape=[1280], bytes=2560
+68: name=cond_stage_model.1.transformer.text_model.encoder.layers.12.layer_norm2.bias, shape=[1280], bytes=2560
+69: name=cond_stage_model.1.transformer.text_model.encoder.layers.12.layer_norm2.weight, shape=[1280], bytes=2560
+70: name=cond_stage_model.1.transformer.text_model.encoder.layers.12.mlp.fc1.bias, shape=[5120], bytes=10240
+71: name=cond_stage_model.1.transformer.text_model.encoder.layers.12.mlp.fc1.weight, shape=[1280 5120], bytes=13107200
+72: name=cond_stage_model.1.transformer.text_model.encoder.layers.12.mlp.fc2.bias, shape=[1280], bytes=2560
+73: name=cond_stage_model.1.transformer.text_model.encoder.layers.12.mlp.fc2.weight, shape=[5120 1280], bytes=13107200
+74: name=cond_stage_model.1.transformer.text_model.encoder.layers.12.self_attn.k_proj.bias, shape=[1280], bytes=2560
+75: name=cond_stage_model.1.transformer.text_model.encoder.layers.12.self_attn.k_proj.weight, shape=[1280 1280], bytes=3276800
+76: name=cond_stage_model.1.transformer.text_model.encoder.layers.12.self_attn.out_proj.bias, shape=[1280], bytes=2560
+77: name=cond_stage_model.1.transformer.text_model.encoder.layers.12.self_attn.out_proj.weight, shape=[1280 1280], bytes=3276800
+78: name=cond_stage_model.1.transformer.text_model.encoder.layers.12.self_attn.q_proj.bias, shape=[1280], bytes=2560
+79: name=cond_stage_model.1.transformer.text_model.encoder.layers.12.self_attn.q_proj.weight, shape=[1280 1280], bytes=3276800
+80: name=cond_stage_model.1.transformer.text_model.encoder.layers.12.self_attn.v_proj.bias, shape=[1280], bytes=2560
+81: name=cond_stage_model.1.transformer.text_model.encoder.layers.12.self_attn.v_proj.weight, shape=[1280 1280], bytes=3276800
+82: name=cond_stage_model.1.transformer.text_model.encoder.layers.13.layer_norm1.bias, shape=[1280], bytes=2560
+83: name=cond_stage_model.1.transformer.text_model.encoder.layers.13.layer_norm1.weight, shape=[1280], bytes=2560
+84: name=cond_stage_model.1.transformer.text_model.encoder.layers.13.layer_norm2.bias, shape=[1280], bytes=2560
+85: name=cond_stage_model.1.transformer.text_model.encoder.layers.13.layer_norm2.weight, shape=[1280], bytes=2560
+86: name=cond_stage_model.1.transformer.text_model.encoder.layers.13.mlp.fc1.bias, shape=[5120], bytes=10240
+87: name=cond_stage_model.1.transformer.text_model.encoder.layers.13.mlp.fc1.weight, shape=[1280 5120], bytes=13107200
+88: name=cond_stage_model.1.transformer.text_model.encoder.layers.13.mlp.fc2.bias, shape=[1280], bytes=2560
+89: name=cond_stage_model.1.transformer.text_model.encoder.layers.13.mlp.fc2.weight, shape=[5120 1280], bytes=13107200
+90: name=cond_stage_model.1.transformer.text_model.encoder.layers.13.self_attn.k_proj.bias, shape=[1280], bytes=2560
+91: name=cond_stage_model.1.transformer.text_model.encoder.layers.13.self_attn.k_proj.weight, shape=[1280 1280], bytes=3276800
+92: name=cond_stage_model.1.transformer.text_model.encoder.layers.13.self_attn.out_proj.bias, shape=[1280], bytes=2560
+93: name=cond_stage_model.1.transformer.text_model.encoder.layers.13.self_attn.out_proj.weight, shape=[1280 1280], bytes=3276800
+94: name=cond_stage_model.1.transformer.text_model.encoder.layers.13.self_attn.q_proj.bias, shape=[1280], bytes=2560
+95: name=cond_stage_model.1.transformer.text_model.encoder.layers.13.self_attn.q_proj.weight, shape=[1280 1280], bytes=3276800
+96: name=cond_stage_model.1.transformer.text_model.encoder.layers.13.self_attn.v_proj.bias, shape=[1280], bytes=2560
+97: name=cond_stage_model.1.transformer.text_model.encoder.layers.13.self_attn.v_proj.weight, shape=[1280 1280], bytes=3276800
+98: name=cond_stage_model.1.transformer.text_model.encoder.layers.14.layer_norm1.bias, shape=[1280], bytes=2560
+99: name=cond_stage_model.1.transformer.text_model.encoder.layers.14.layer_norm1.weight, shape=[1280], bytes=2560
+100: name=cond_stage_model.1.transformer.text_model.encoder.layers.14.layer_norm2.bias, shape=[1280], bytes=2560
+101: name=cond_stage_model.1.transformer.text_model.encoder.layers.14.layer_norm2.weight, shape=[1280], bytes=2560
+102: name=cond_stage_model.1.transformer.text_model.encoder.layers.14.mlp.fc1.bias, shape=[5120], bytes=10240
+103: name=cond_stage_model.1.transformer.text_model.encoder.layers.14.mlp.fc1.weight, shape=[1280 5120], bytes=13107200
+104: name=cond_stage_model.1.transformer.text_model.encoder.layers.14.mlp.fc2.bias, shape=[1280], bytes=2560
+105: name=cond_stage_model.1.transformer.text_model.encoder.layers.14.mlp.fc2.weight, shape=[5120 1280], bytes=13107200
+106: name=cond_stage_model.1.transformer.text_model.encoder.layers.14.self_attn.k_proj.bias, shape=[1280], bytes=2560
+107: name=cond_stage_model.1.transformer.text_model.encoder.layers.14.self_attn.k_proj.weight, shape=[1280 1280], bytes=3276800
+108: name=cond_stage_model.1.transformer.text_model.encoder.layers.14.self_attn.out_proj.bias, shape=[1280], bytes=2560
+109: name=cond_stage_model.1.transformer.text_model.encoder.layers.14.self_attn.out_proj.weight, shape=[1280 1280], bytes=3276800
+110: name=cond_stage_model.1.transformer.text_model.encoder.layers.14.self_attn.q_proj.bias, shape=[1280], bytes=2560
+111: name=cond_stage_model.1.transformer.text_model.encoder.layers.14.self_attn.q_proj.weight, shape=[1280 1280], bytes=3276800
+112: name=cond_stage_model.1.transformer.text_model.encoder.layers.14.self_attn.v_proj.bias, shape=[1280], bytes=2560
+113: name=cond_stage_model.1.transformer.text_model.encoder.layers.14.self_attn.v_proj.weight, shape=[1280 1280], bytes=3276800
+114: name=cond_stage_model.1.transformer.text_model.encoder.layers.15.layer_norm1.bias, shape=[1280], bytes=2560
+115: name=cond_stage_model.1.transformer.text_model.encoder.layers.15.layer_norm1.weight, shape=[1280], bytes=2560
+116: name=cond_stage_model.1.transformer.text_model.encoder.layers.15.layer_norm2.bias, shape=[1280], bytes=2560
+117: name=cond_stage_model.1.transformer.text_model.encoder.layers.15.layer_norm2.weight, shape=[1280], bytes=2560
+118: name=cond_stage_model.1.transformer.text_model.encoder.layers.15.mlp.fc1.bias, shape=[5120], bytes=10240
+119: name=cond_stage_model.1.transformer.text_model.encoder.layers.15.mlp.fc1.weight, shape=[1280 5120], bytes=13107200
+120: name=cond_stage_model.1.transformer.text_model.encoder.layers.15.mlp.fc2.bias, shape=[1280], bytes=2560
+121: name=cond_stage_model.1.transformer.text_model.encoder.layers.15.mlp.fc2.weight, shape=[5120 1280], bytes=13107200
+122: name=cond_stage_model.1.transformer.text_model.encoder.layers.15.self_attn.k_proj.bias, shape=[1280], bytes=2560
+123: name=cond_stage_model.1.transformer.text_model.encoder.layers.15.self_attn.k_proj.weight, shape=[1280 1280], bytes=3276800
+124: name=cond_stage_model.1.transformer.text_model.encoder.layers.15.self_attn.out_proj.bias, shape=[1280], bytes=2560
+125: name=cond_stage_model.1.transformer.text_model.encoder.layers.15.self_attn.out_proj.weight, shape=[1280 1280], bytes=3276800
+126: name=cond_stage_model.1.transformer.text_model.encoder.layers.15.self_attn.q_proj.bias, shape=[1280], bytes=2560
+127: name=cond_stage_model.1.transformer.text_model.encoder.layers.15.self_attn.q_proj.weight, shape=[1280 1280], bytes=3276800
+128: name=cond_stage_model.1.transformer.text_model.encoder.layers.15.self_attn.v_proj.bias, shape=[1280], bytes=2560
+129: name=cond_stage_model.1.transformer.text_model.encoder.layers.15.self_attn.v_proj.weight, shape=[1280 1280], bytes=3276800
+130: name=cond_stage_model.1.transformer.text_model.encoder.layers.16.layer_norm1.bias, shape=[1280], bytes=2560
+131: name=cond_stage_model.1.transformer.text_model.encoder.layers.16.layer_norm1.weight, shape=[1280], bytes=2560
+132: name=cond_stage_model.1.transformer.text_model.encoder.layers.16.layer_norm2.bias, shape=[1280], bytes=2560
+133: name=cond_stage_model.1.transformer.text_model.encoder.layers.16.layer_norm2.weight, shape=[1280], bytes=2560
+134: name=cond_stage_model.1.transformer.text_model.encoder.layers.16.mlp.fc1.bias, shape=[5120], bytes=10240
+135: name=cond_stage_model.1.transformer.text_model.encoder.layers.16.mlp.fc1.weight, shape=[1280 5120], bytes=13107200
+136: name=cond_stage_model.1.transformer.text_model.encoder.layers.16.mlp.fc2.bias, shape=[1280], bytes=2560
+137: name=cond_stage_model.1.transformer.text_model.encoder.layers.16.mlp.fc2.weight, shape=[5120 1280], bytes=13107200
+138: name=cond_stage_model.1.transformer.text_model.encoder.layers.16.self_attn.k_proj.bias, shape=[1280], bytes=2560
+139: name=cond_stage_model.1.transformer.text_model.encoder.layers.16.self_attn.k_proj.weight, shape=[1280 1280], bytes=3276800
+140: name=cond_stage_model.1.transformer.text_model.encoder.layers.16.self_attn.out_proj.bias, shape=[1280], bytes=2560
+141: name=cond_stage_model.1.transformer.text_model.encoder.layers.16.self_attn.out_proj.weight, shape=[1280 1280], bytes=3276800
+142: name=cond_stage_model.1.transformer.text_model.encoder.layers.16.self_attn.q_proj.bias, shape=[1280], bytes=2560
+143: name=cond_stage_model.1.transformer.text_model.encoder.layers.16.self_attn.q_proj.weight, shape=[1280 1280], bytes=3276800
+144: name=cond_stage_model.1.transformer.text_model.encoder.layers.16.self_attn.v_proj.bias, shape=[1280], bytes=2560
+145: name=cond_stage_model.1.transformer.text_model.encoder.layers.16.self_attn.v_proj.weight, shape=[1280 1280], bytes=3276800
+146: name=cond_stage_model.1.transformer.text_model.encoder.layers.17.layer_norm1.bias, shape=[1280], bytes=2560
+147: name=cond_stage_model.1.transformer.text_model.encoder.layers.17.layer_norm1.weight, shape=[1280], bytes=2560
+148: name=cond_stage_model.1.transformer.text_model.encoder.layers.17.layer_norm2.bias, shape=[1280], bytes=2560
+149: name=cond_stage_model.1.transformer.text_model.encoder.layers.17.layer_norm2.weight, shape=[1280], bytes=2560
+150: name=cond_stage_model.1.transformer.text_model.encoder.layers.17.mlp.fc1.bias, shape=[5120], bytes=10240
+151: name=cond_stage_model.1.transformer.text_model.encoder.layers.17.mlp.fc1.weight, shape=[1280 5120], bytes=13107200
+152: name=cond_stage_model.1.transformer.text_model.encoder.layers.17.mlp.fc2.bias, shape=[1280], bytes=2560
+153: name=cond_stage_model.1.transformer.text_model.encoder.layers.17.mlp.fc2.weight, shape=[5120 1280], bytes=13107200
+154: name=cond_stage_model.1.transformer.text_model.encoder.layers.17.self_attn.k_proj.bias, shape=[1280], bytes=2560
+155: name=cond_stage_model.1.transformer.text_model.encoder.layers.17.self_attn.k_proj.weight, shape=[1280 1280], bytes=3276800
+156: name=cond_stage_model.1.transformer.text_model.encoder.layers.17.self_attn.out_proj.bias, shape=[1280], bytes=2560
+157: name=cond_stage_model.1.transformer.text_model.encoder.layers.17.self_attn.out_proj.weight, shape=[1280 1280], bytes=3276800
+158: name=cond_stage_model.1.transformer.text_model.encoder.layers.17.self_attn.q_proj.bias, shape=[1280], bytes=2560
+159: name=cond_stage_model.1.transformer.text_model.encoder.layers.17.self_attn.q_proj.weight, shape=[1280 1280], bytes=3276800
+160: name=cond_stage_model.1.transformer.text_model.encoder.layers.17.self_attn.v_proj.bias, shape=[1280], bytes=2560
+161: name=cond_stage_model.1.transformer.text_model.encoder.layers.17.self_attn.v_proj.weight, shape=[1280 1280], bytes=3276800
+162: name=cond_stage_model.1.transformer.text_model.encoder.layers.18.layer_norm1.bias, shape=[1280], bytes=2560
+163: name=cond_stage_model.1.transformer.text_model.encoder.layers.18.layer_norm1.weight, shape=[1280], bytes=2560
+164: name=cond_stage_model.1.transformer.text_model.encoder.layers.18.layer_norm2.bias, shape=[1280], bytes=2560
+165: name=cond_stage_model.1.transformer.text_model.encoder.layers.18.layer_norm2.weight, shape=[1280], bytes=2560
+166: name=cond_stage_model.1.transformer.text_model.encoder.layers.18.mlp.fc1.bias, shape=[5120], bytes=10240
+167: name=cond_stage_model.1.transformer.text_model.encoder.layers.18.mlp.fc1.weight, shape=[1280 5120], bytes=13107200
+168: name=cond_stage_model.1.transformer.text_model.encoder.layers.18.mlp.fc2.bias, shape=[1280], bytes=2560
+169: name=cond_stage_model.1.transformer.text_model.encoder.layers.18.mlp.fc2.weight, shape=[5120 1280], bytes=13107200
+170: name=cond_stage_model.1.transformer.text_model.encoder.layers.18.self_attn.k_proj.bias, shape=[1280], bytes=2560
+171: name=cond_stage_model.1.transformer.text_model.encoder.layers.18.self_attn.k_proj.weight, shape=[1280 1280], bytes=3276800
+172: name=cond_stage_model.1.transformer.text_model.encoder.layers.18.self_attn.out_proj.bias, shape=[1280], bytes=2560
+173: name=cond_stage_model.1.transformer.text_model.encoder.layers.18.self_attn.out_proj.weight, shape=[1280 1280], bytes=3276800
+174: name=cond_stage_model.1.transformer.text_model.encoder.layers.18.self_attn.q_proj.bias, shape=[1280], bytes=2560
+175: name=cond_stage_model.1.transformer.text_model.encoder.layers.18.self_attn.q_proj.weight, shape=[1280 1280], bytes=3276800
+176: name=cond_stage_model.1.transformer.text_model.encoder.layers.18.self_attn.v_proj.bias, shape=[1280], bytes=2560
+177: name=cond_stage_model.1.transformer.text_model.encoder.layers.18.self_attn.v_proj.weight, shape=[1280 1280], bytes=3276800
+178: name=cond_stage_model.1.transformer.text_model.encoder.layers.19.layer_norm1.bias, shape=[1280], bytes=2560
+179: name=cond_stage_model.1.transformer.text_model.encoder.layers.19.layer_norm1.weight, shape=[1280], bytes=2560
+180: name=cond_stage_model.1.transformer.text_model.encoder.layers.19.layer_norm2.bias, shape=[1280], bytes=2560
+181: name=cond_stage_model.1.transformer.text_model.encoder.layers.19.layer_norm2.weight, shape=[1280], bytes=2560
+182: name=cond_stage_model.1.transformer.text_model.encoder.layers.19.mlp.fc1.bias, shape=[5120], bytes=10240
+183: name=cond_stage_model.1.transformer.text_model.encoder.layers.19.mlp.fc1.weight, shape=[1280 5120], bytes=13107200
+184: name=cond_stage_model.1.transformer.text_model.encoder.layers.19.mlp.fc2.bias, shape=[1280], bytes=2560
+185: name=cond_stage_model.1.transformer.text_model.encoder.layers.19.mlp.fc2.weight, shape=[5120 1280], bytes=13107200
+186: name=cond_stage_model.1.transformer.text_model.encoder.layers.19.self_attn.k_proj.bias, shape=[1280], bytes=2560
+187: name=cond_stage_model.1.transformer.text_model.encoder.layers.19.self_attn.k_proj.weight, shape=[1280 1280], bytes=3276800
+188: name=cond_stage_model.1.transformer.text_model.encoder.layers.19.self_attn.out_proj.bias, shape=[1280], bytes=2560
+189: name=cond_stage_model.1.transformer.text_model.encoder.layers.19.self_attn.out_proj.weight, shape=[1280 1280], bytes=3276800
+190: name=cond_stage_model.1.transformer.text_model.encoder.layers.19.self_attn.q_proj.bias, shape=[1280], bytes=2560
+191: name=cond_stage_model.1.transformer.text_model.encoder.layers.19.self_attn.q_proj.weight, shape=[1280 1280], bytes=3276800
+192: name=cond_stage_model.1.transformer.text_model.encoder.layers.19.self_attn.v_proj.bias, shape=[1280], bytes=2560
+193: name=cond_stage_model.1.transformer.text_model.encoder.layers.19.self_attn.v_proj.weight, shape=[1280 1280], bytes=3276800
+194: name=cond_stage_model.1.transformer.text_model.encoder.layers.2.layer_norm1.bias, shape=[1280], bytes=2560
+195: name=cond_stage_model.1.transformer.text_model.encoder.layers.2.layer_norm1.weight, shape=[1280], bytes=2560
+196: name=cond_stage_model.1.transformer.text_model.encoder.layers.2.layer_norm2.bias, shape=[1280], bytes=2560
+197: name=cond_stage_model.1.transformer.text_model.encoder.layers.2.layer_norm2.weight, shape=[1280], bytes=2560
+198: name=cond_stage_model.1.transformer.text_model.encoder.layers.2.mlp.fc1.bias, shape=[5120], bytes=10240
+199: name=cond_stage_model.1.transformer.text_model.encoder.layers.2.mlp.fc1.weight, shape=[1280 5120], bytes=13107200
