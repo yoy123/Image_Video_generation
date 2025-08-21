@@ -3,6 +3,7 @@ import tempfile
 from typing import List
 from PIL import Image
 import imageio
+import numpy as np
 
 from .generate import generate_image
 
@@ -18,9 +19,13 @@ def generate_frames_from_image(input_image_path: str,
 
     This naive approach varies the RNG seed across frames to create motion.
     """
+    if num_frames <= 0:
+        raise ValueError("num_frames must be positive")
     if temp_dir is None:
         temp_dir = tempfile.mkdtemp(prefix="ivg_frames_")
-    frame_paths = []
+    else:
+        os.makedirs(temp_dir, exist_ok=True)
+    frame_paths: List[str] = []
     for i in range(num_frames):
         out_path = os.path.join(temp_dir, f"frame_{i:03d}.png")
         seed = (base_seed if base_seed is not None else 42) + i * 7
@@ -40,11 +45,14 @@ def generate_frames_from_image(input_image_path: str,
 
 
 def frames_to_video(frame_paths: List[str], out_path: str, fps: int = 8):
-    writer = imageio.get_writer(out_path, fps=fps, macro_block_size=None)
-    for p in frame_paths:
-        img = Image.open(p).convert("RGB")
-        writer.append_data(imageio.imread(p))
-    writer.close()
+    if not frame_paths:
+        raise ValueError("frame_paths must contain at least one frame")
+    if fps <= 0:
+        raise ValueError("fps must be positive")
+    with imageio.get_writer(out_path, fps=fps, macro_block_size=None) as writer:
+        for p in frame_paths:
+            img = Image.open(p).convert("RGB")
+            writer.append_data(np.array(img))
     return out_path
 
 
