@@ -71,21 +71,7 @@ external/**
 # Environment files
 .env
 .env.*
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.venv/
-.env
 
-# Model cache
-~/.cache/huggingface
+# Model cache (local user cache path patterns are not matched here; keep local folder ignores above)
 
-# Outputs
-outputs/
-*.mp4
-*.webm
-
-# VSCode
-.vscode/
+# Outputs (already above)
